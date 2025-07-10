@@ -6,7 +6,7 @@ from schemas.task_schema import task_helper
 async def get_tasks():
     tasks = []
     async for task in task_collection.find():
-        task.append(task_helper(task))
+        tasks.append(task_helper(task))
     return tasks
 
 async def get_task(id: str):
