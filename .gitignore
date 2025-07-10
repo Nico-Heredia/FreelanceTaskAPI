@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+
+# FastAPI & Uvicorn
+*.log
+
+# VSCode settings
+.vscode/
+.history/
+
+# Thunder Client
+thunder-tests/
+
+# dotenv files (credenciales)
+.env
+.env.*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+
